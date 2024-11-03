@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var cat = ["red bat", "blue", "green", "yellow"]
+        console.log(cat[0].indexOf(""))
+    </script>
+</body>
+
+</html>
+
+
+
+
+<script>
+    function checkboxcheck(checbox__value) {
+        checbox__value.addEventListener("click", function () {
+            if (checbox__value.checked == true) {
+                for (count = 0; count < container3__div.length; count++) {
+                    if (container3__div[count].textContent.toUpperCase().indexOf(checbox__value.value.toUpperCase()) < 0) {
+                        container3__div[count].style.display = "none"
+                    }
+                }
+            }
+            else {
+                for (count = 0; count < container3__div.length; count++) {
+                    container3__div[count].style.display = "block"
+                }
+            }
+        })
+
+    }
+
+</script>
+
+

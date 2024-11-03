@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-y: auto;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* section 1 */
+
+.section1 {
+    background-color: #1D232C;
+    color: white;
+    display: flex;
+    gap: 155px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    height: 40px;
+}
+
+.section1 span {
+    font-weight: bold;
+    color: rgb(238, 231, 231);
+}
+
+.x {
+    color: rgb(238, 231, 231);
+    cursor: pointer;
+}
+
+/* section 2 */
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 15px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: #1D232C;
+    
+
+}
+
+.section2__one {
+    font-size: 20px;
+}
+
+.section2__two {
+    display: flex;
+    font-size: 18px;
+    gap: 40px;
+}
+.section2__two a{
+    color: inherit;
+    text-decoration: none;
+}
+.section2__two p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Section 3 */
+.section3{
+    display: flex;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    margin:0 120px 0 20px;
+}
+
+.container1 h1{
+    margin: 20px 0 0 0;
+}
+
+.container2{
+    border: solid black 2px;
+    height: 1200px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 10px;
+    gap: 30px;
+    position: relative;
+    align-items: center;
+}
+
+
+.container3 input{
+    width: 90%;
+    height: 30px;
+    border: black solid 2px;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+.serachicon{
+    position: absolute;
+    width: 30px;
+    top: 7px;
+    right: 37px;
+    
+
+}
+.container3__imgs{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+.container3__imgs img{
+    height: 280px;
+}
+
+/* Section 10 */
+
+.section10 button img {
+    height: 25px;
+}
+
+.section10 {
+    margin: 20px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 28px;
+}
+.section10 input{
+    border: #1D232C solid 3px;
+    width: 90%;
+    height: 40px;
+}
+.section10 button {
+    cursor: pointer;
+    background-color: #1D232C;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    font-size: 25px;
+    gap: 10px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Section 11 */
+
+.section11{
+    background-color: #1D232C;
+    color: white;
+    display: flex;
+    gap: 5px;
+    font-size: 28px;
+    flex-direction: column;
+    padding: 40px 0 20px 40px;
+}
+.section11__one {
+    display: flex;
+    gap: 50px;
+    padding: 30px 0 30px 15px;
+}
+.section11__one img{
+    
+    width: 30px;
+}
+
+.section11 h4 {
+    font-weight: 400;
+}
